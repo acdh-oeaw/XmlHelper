@@ -411,6 +411,6 @@ public class XmlParser {
 		 * Methods not needed
 		 */
 		public String getPrefix(String namespaceURI) { return valuesNames.get(namespaceURI); }
-		public Iterator<?> getPrefixes(String namespaceURI) { return null; }
+		public Iterator<String> getPrefixes(String namespaceURI) { return null; }
 	}
 }
